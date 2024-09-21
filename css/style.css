@@ -160,7 +160,7 @@ ul {
 }
 
 .recipe-ingredients ul:last-child {
-  border-bottom: solid 1px var(--stone-100);
+  border-bottom: solid 1px var(--stone-150);
   padding-bottom: 20px;
 }
 
@@ -188,7 +188,7 @@ ul {
 }
 
 .recipe-instructions ul:last-child {
-  border-bottom: solid 1px var(--stone-100);
+  border-bottom: solid 1px var(--stone-150);
   padding-bottom: 20px;
 }
 
@@ -198,4 +198,25 @@ ul {
   font-weight: 400;
   color: var(--stone-600);
   margin-bottom: 20px;
+}
+
+.recipe-nutrition table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.recipe-nutrition td {
+  padding: 0 175px 10px 25px;
+  text-align: left;
+  color: var(--stone-600);
+  font-weight: 400;
+}
+
+table tr td:nth-child(2) {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.recipe-nutrition tr:not(:last-child) {
+  border-bottom: 1px solid hsl(0, 0%, 79%);
 }
